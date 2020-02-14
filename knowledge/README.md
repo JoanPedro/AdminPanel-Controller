@@ -4,7 +4,7 @@ Projeto Conceitual Inicial do Ledaxio!
 
 # Versão Inicial
 
-- Feedfor
+- Feedforwarding
 
 # Versão Final
 
