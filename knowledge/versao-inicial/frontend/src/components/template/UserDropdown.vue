@@ -53,7 +53,7 @@ export default {
     .user-button {
         display: flex;
         align-items: center;
-        color: rgb(0, 129, 143);
+        color: white;
         font-weight: 100;
         height: 100%;
         padding: 0px 20px;

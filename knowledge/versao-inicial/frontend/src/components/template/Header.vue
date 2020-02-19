@@ -5,7 +5,7 @@
         </a>
         <h1 class="title">
             <div class="title-logo" v-if="!hideLogoImg">
-                <img src="../../assets/ledax_logo_energy_lighting.png">
+                <img src="../../assets/LEDAX_logo_energia_inteligente_branco.png">
             </div>
         </h1>
         <div class="naming">
@@ -52,7 +52,11 @@ export default {
 <style>
     .header {
         grid-area: header;
-        background: white;
+        background: rgb(0, 129, 143);
+        -webkit-box-shadow: 3px 2px 20px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 2px 20px -5px rgba(0,0,0,0.75);
+        box-shadow: 3px 2px 20px -5px rgba(0,0,0,0.75);
+
 
         display: flex;
         justify-content: center;
@@ -87,13 +91,13 @@ export default {
     }
 
     .title a, .naming a{
-        color: rgb(0, 129, 143);
+        color: white;
         text-decoration: none;
         
     }
 
     .title a:hover, .naming a:hover {
-        color: rgb(0, 129, 143);
+        color: white;
         text-decoration: none;
     }
 
@@ -107,6 +111,11 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    header.header > a i{
+        color: white;
+        font-size: 2rem; 
     }
 
     header.header > a.toggle:hover {
@@ -123,7 +132,7 @@ export default {
         display: flex;
         align-items: center;
         justify-items: center;
-        border-right: 1px solid rgba(0, 0, 0, 0.325);
+        border-right: 1px solid white;
     }
 
     div.title-logo img{

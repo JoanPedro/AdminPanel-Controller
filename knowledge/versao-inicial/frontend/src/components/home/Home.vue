@@ -1,14 +1,6 @@
 <template>
     <div class="home">
-        <b-row> 
-            <b-col>
-                <div class="title-of-page">
-                    <PageTitle icon="fa fa-home" main="Dashboard" sub="Sistema Geral" :hideTitle="!hideTitle" />
-                </div>
-            
-                <Stat />
-            </b-col>
-        </b-row>
+        <Stat />
     </div>
 </template>
 
@@ -44,9 +36,5 @@ export default {
         height: calc(100%);
     }
 
-    Stat {
-        display: flex;
-        flex-wrap: wrap;
-    }
     
 </style>

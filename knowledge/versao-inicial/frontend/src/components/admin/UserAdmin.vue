@@ -23,24 +23,24 @@
             <b-row v-show="mode === 'save'">
                 <b-col md="6" sm="12">
                     <b-form-checkbox id="user-adminMaster" v-model="user.adminMaster" class="mt-3 mb-3">
-                        Administrador ?
+                        Administrador Geral
                     </b-form-checkbox>
                 </b-col>
                 <b-col md="6" sm="12">
                     <b-form-checkbox id="user-adminEnterprise" v-model="user.adminEnterprise" class="mt-3 mb-3">
-                        Indústria ?
+                        Líder de Negócio
                     </b-form-checkbox>    
                 </b-col>
             </b-row>
             <b-row v-show="mode === 'save'">
                 <b-col md="6" sm="12">
                     <b-form-checkbox id="user-manager" v-model="user.manager" class="mt-3 mb-3">
-                        Escola ?
+                        Gerente
                     </b-form-checkbox>
                 </b-col>
                 <b-col md="6" sm="12">
                     <b-form-checkbox id="user-customer" v-model="user.customer" class="mt-3 mb-3">
-                        Comércio ?
+                        Cliente
                     </b-form-checkbox>    
                 </b-col>
             </b-row>            
@@ -99,13 +99,13 @@ export default {
                 { key: 'id', label: 'Código', sortable: true},
                 { key: 'name', label: 'Nome', sortable: true},
                 { key: 'email', label: 'E-mail', sortable: true},
-                { key: 'adminMaster', label: 'Administrador', sortable: true,
+                { key: 'adminMaster', label: 'Administrador Geral', sortable: true,
                     formatter: value => value ? 'Sim' : 'Não'},
-                {key: 'adminEnterprise', label: 'Indústria', sortable: true,
+                {key: 'adminEnterprise', label: 'Líder de Negócio', sortable: true,
                     formatter: value => value ? 'Sim' : 'Não'},
-                { key: 'manager', label: 'Escola', sortable: true,
+                { key: 'manager', label: 'Gerente', sortable: true,
                     formatter: value => value ? 'Sim' : 'Não'},
-                { key: 'customer', label: 'Comércio', sortable: true,
+                { key: 'customer', label: 'Cliente', sortable: true,
                     formatter: value => value ? 'Sim' : 'Não'},
                 { key: 'actions', label: 'Ações'}
             ],

@@ -1,6 +1,6 @@
 <template>
 	<div id="app" :class="{'hide-menu': !isMenuVisible || !user}">
-		<Header title="Codax - Remote System" 
+		<Header title="Ledax.io" 
 			:hideToggle="!user"
 			:hideUserDropdown="!user"
 			:hideLogoImg="!user" />
@@ -100,8 +100,8 @@ export default {
 
 		height: 100vh;
 		display: grid;
-		grid-template-rows: 60px 1fr 40px;
-		grid-template-columns: 60px 1fr;
+		grid-template-rows: 50px 1fr 40px;
+		grid-template-columns: 229px 1fr;
 		grid-template-areas:
 			"header header"
 			"menu content"
@@ -115,19 +115,5 @@ export default {
 			"footer footer";
 	}
 
-	@media screen and (max-width: 1200px) {
-		#app {
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
 
-		height: 100vh;
-		display: grid;
-		grid-template-rows: 30px 1fr 40px;
-		grid-template-columns: 50px 1fr;
-		grid-template-areas:
-			"header header"
-			"menu content"
-			"menu footer";
-		}	
-	}
 </style>

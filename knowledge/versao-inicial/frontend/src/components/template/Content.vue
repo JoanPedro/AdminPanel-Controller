@@ -1,10 +1,6 @@
 <template>
     <div class = "content">
-        <b-row>
-            <b-col md="12">
-                <router-view></router-view>
-            </b-col>
-        </b-row>
+        <router-view></router-view>
     </div>
 </template>
 
