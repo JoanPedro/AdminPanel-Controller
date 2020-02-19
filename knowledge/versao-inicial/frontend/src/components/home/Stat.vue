@@ -1,7 +1,7 @@
 <template>
 
 <div class="dashboard-content">
-aa
+    Content
 
 </div>
 </template>
