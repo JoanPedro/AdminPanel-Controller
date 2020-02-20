@@ -63,6 +63,7 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 
     .auth-modal {
@@ -115,4 +116,6 @@ export default {
             rgba(120, 120, 120, 0.75),
             rgba(120, 120, 120, 0));
     }
+
+
 </style>

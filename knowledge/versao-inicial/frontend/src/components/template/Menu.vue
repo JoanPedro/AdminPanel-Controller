@@ -48,8 +48,11 @@
 import { mapState } from 'vuex'
 export default {
     name: 'Menu',
-    computed: mapState(['isMenuVisible'])
-}
+    computed: mapState(['isMenuVisible']),
+    methods: {
+
+        }
+    }
 </script>
 
 <style>
