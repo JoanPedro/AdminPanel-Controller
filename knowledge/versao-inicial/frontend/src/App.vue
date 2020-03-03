@@ -105,14 +105,14 @@ export default {
 		grid-template-areas:
 			"header header"
 			"menu content"
-			"menu footer";
+			"menu content";
 	}
 
 	#app.hide-menu {
 		grid-template-areas:
 			"header header"
 			"content content"
-			"footer footer";
+			"content content";
 	}
 
 

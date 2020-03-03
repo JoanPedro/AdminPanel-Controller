@@ -13,13 +13,15 @@ export default {
 <style>
     .footer{
         grid-area: footer;
-        background-color: #DDD;
-        color: #333;
+        background-color: #FFF;
+        color: #FFF;
 
         display: flex;
         align-items: center;
         justify-content: flex-end;
         padding-right: 10px;
         margin-top: 0px;
+
+        z-index: -2;
     }
 </style>

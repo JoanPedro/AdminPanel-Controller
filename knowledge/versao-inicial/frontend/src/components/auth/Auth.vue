@@ -19,6 +19,8 @@
             </a>
             -->
         </div>
+        <div class="box-moving" id="rotating"></div>
+        <!-- <div class="lateral-line"></div> -->
     </div>
 </template>
 
@@ -57,12 +59,14 @@ export default {
 </script>
 
 <style>
-
+    
     .auth-content{
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        z-index: 10;
 
     }
 
@@ -76,6 +80,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: fixed;
     }
 
     .auth-title{
@@ -117,5 +122,39 @@ export default {
             rgba(120, 120, 120, 0));
     }
 
+    .box-moving{
+        
+        background-color: rgb(0, 129, 143);
+        position: relative;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        width: 100px;
+        height: 100px;
+        -webkit-animation: example 4s infinite linear;
+        z-index: -1;
+    }
+
+    .lateral-line {
+        width: 10px;
+        height: 100%;
+        
+
+        background-color: rgb(0, 129, 143);
+    }
+
+    @keyframes example {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(359deg);
+        }
+        0%   {background-color:rgb(0, 129, 143); left:400px; top:235px;}
+        100%  {background-color:rgb(0, 129, 143); left:400px; top:-500px;}
+    }
+
+    
 
 </style>
