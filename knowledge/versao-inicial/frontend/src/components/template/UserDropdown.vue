@@ -2,10 +2,12 @@
     <div class="user-dropdown">
         <div class="user-button">
             <span class="d-none d-sm-block">{{user.name}}</span>
+            <!-- 
             <div class="user-dropdown-img">
                 <Gravatar :email="user.email" alt="User" />
             </div>
-            <i class="fa fa-angle-down"></i>
+            -->
+            <i class="fa fa-angle-down" style="margin-left: 1 0px;"></i>
         </div>
         <div class="user-dropdown-content">
             <router-link to="/industry" v-if="(user.adminMaster || user.adminEnterprise)">
@@ -58,7 +60,6 @@ export default {
         height: 100%;
         padding: 0px 20px;
         font-size: 1.2rem;
-        
     }
 
     .user-button:hover{

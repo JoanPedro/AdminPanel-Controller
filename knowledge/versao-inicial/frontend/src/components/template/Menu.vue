@@ -1,5 +1,5 @@
 <template>
-    <aside class = "menu" v-show="isMenuVisible">
+    <aside class = "menu" v-show="!isMenuVisible">
 
         <div class="logo-client">
             <div class="logo-client-parents">

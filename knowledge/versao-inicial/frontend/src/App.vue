@@ -101,7 +101,7 @@ export default {
 		height: 100vh;
 		display: grid;
 		grid-template-rows: 50px 1fr 40px;
-		grid-template-columns: 229px 1fr;
+		grid-template-columns: 0px 1fr;
 		grid-template-areas:
 			"header header"
 			"menu content"
