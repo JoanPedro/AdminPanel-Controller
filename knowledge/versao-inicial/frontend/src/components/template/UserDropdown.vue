@@ -7,7 +7,7 @@
                 <Gravatar :email="user.email" alt="User" />
             </div>
             -->
-            <i class="fa fa-angle-down" style="margin-left: 1 0px;"></i>
+            <i class="fa fa-angle-down" style="margin-left: 10px;"></i>
         </div>
         <div class="user-dropdown-content">
             <router-link to="/industry" v-if="(user.adminMaster || user.adminEnterprise)">
