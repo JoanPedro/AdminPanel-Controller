@@ -28,7 +28,9 @@ module.exports = app => {
             customer: user.customer,
             manager: user.manager,
             iat: now,
-            exp: now + (60 * 60 * 24)
+            exp: now + (60 * 60 * 24),
+            gerencialUrl: user.gerencialUrl,
+            operacionalUrl: user.operacionalUrl
         }
 
         res.json({

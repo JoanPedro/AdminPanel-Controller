@@ -60,6 +60,22 @@
                     </b-form-group>
                 </b-col>
             </b-row>
+            <b-row v-show="mode === 'save'"> 
+                <b-col md="6" sm="12"> 
+                    <b-form-group label="Url - Gerencial: " label-for="user-gerencial"> 
+                        <b-form-input id="user-gerencial" type="text"
+                            v-model="user.gerencialUrl"
+                            placeholder="Informe o Url Gerencial."/>
+                    </b-form-group>
+                </b-col>
+                <b-col md="6" sm="12"> 
+                    <b-form-group label="Url - Operacional " label-for="user-operacional"> 
+                        <b-form-input id="user-operacional" type="text"
+                            v-model="user.operacionalUrl"  
+                            placeholder="Informe o Url Operacional."/>
+                    </b-form-group>
+                </b-col>
+            </b-row>
             <b-row> 
                 <b-col xs="12">
                     <b-button variant="primary" v-if="mode === 'save'"
@@ -81,6 +97,19 @@
                 </b-button>
             </template>
         </b-table>
+        <!--
+        <h1> Gerenciamento de Url </h1>
+        <b-table hover striped :items="users" :fields="fields2">
+            <template v-slot:cell(actions)="data">
+                <b-button variant="warning" @click="loadUser(data.item)" class="mr-2">
+                    <i class="fa fa-pencil"></i>
+                </b-button>
+                <b-button variant="danger" @click="loadUser(data.item, 'remove')">
+                    <i class="fa fa-trash"></i>
+                </b-button>
+            </template>
+        </b-table>
+        -->
     </div>
 </template>
 
@@ -107,8 +136,15 @@ export default {
                     formatter: value => value ? 'Sim' : 'Não'},
                 { key: 'customer', label: 'Cliente', sortable: true,
                     formatter: value => value ? 'Sim' : 'Não'},
-                { key: 'actions', label: 'Ações'}
+                { key: 'actions', label: 'Ações'},
             ],
+            fields2: [
+                { key: 'id', label: 'Código', sortable: true},
+                { key: 'name', label: 'Nome', sortable: true},
+                { key: 'operacionalUrl', label: 'OP', sortable: true},
+                {key: 'gerencialUrl', label: 'GE', sortable: true},
+                { key: 'actions', label: 'Ações'},
+            ]
         }
     },
     methods: {
