@@ -10,3 +10,5 @@ O sistema está dividido em duas frentes de aplicação, **Backend** e **fronten
 As tecnologias utilizadas estão completamente em Javascript. O Frontend está 
 integrado com **VueJS** e o Backend com o **NodeJS**.
 
+jo3Al41vHItTNNP*Oy!v
+
