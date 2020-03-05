@@ -4,7 +4,7 @@ module.exports = middleware => {
             middleware(req, res, next)
             //console.log(req.user.adminMaster)
         } else {
-            res.status(401).send(req.user)
+            res.status(401).send('Usuário não possui nível de acesso suficiente!')
         }
     }
 }
