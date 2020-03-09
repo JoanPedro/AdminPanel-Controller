@@ -2,10 +2,12 @@ const app = require('express')()
 const consign = require('consign')
 const db = require('./config/db')
 const mongoose = require('mongoose')
+const db2 = require('./config/db2.js')
+
 
 require('./config/mongodb')
 
-
+app.db2 = db2
 app.db = db
 app.mongoose = mongoose
 
@@ -17,6 +19,7 @@ consign()
     .then('./schedule')
     .then('./config/routes.js')
     .then('./config/qlikSense.js')
+    //.then('./config/db2.js')
     .into(app)
 
 app.listen(3000, () => {

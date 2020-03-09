@@ -21,6 +21,10 @@ module.exports = app => {
         .put((app.api.user.save))
         .get(adminMaster(app.api.user.getById))
         .delete(adminMaster(app.api.user.remove))
+    
+    app.route('/codax')
+        .all(app.config.passport.authenticate())
+        .post(adminMaster(app.api.codax.save))
 
     app.route('/stats')
         .all(app.config.passport.authenticate())
