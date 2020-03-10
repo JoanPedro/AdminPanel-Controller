@@ -17,10 +17,10 @@ module.exports = {
         tableName: 'knex_migrations'
     }
     /*
-    client: 'mysql',
+    client: 'postgresql',
     connection: {
-        host: 'codax.c8rmjbl8lqg6.us-west-2.rds.amazonaws.com',
-        database: 'peudb',
+        host: 'codaxpostgres.c8rmjbl8lqg6.us-west-2.rds.amazonaws.com',
+        database: 'postgres',
         user: 'codax',
         password: 'codax2020'
     },
@@ -30,7 +30,7 @@ module.exports = {
     },
     migrations: {
         tableName: 'knex_migrations'
-    }*/
-
+    }
+    */
 
 };

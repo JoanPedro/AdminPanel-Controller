@@ -5,7 +5,7 @@
     <!-- This is the iframe from Qlik software -->  
     <!--<iframe src="https://54.90.181.105/single/?appid=6ad52212-3ebe-469e-9616-f65f59d7fd98&sheet=52a9ef31-08f0-4f81-bbef-f8cfe2df14a4&opt=ctxmenu" style="border:none;width:100%;height:100%;"></iframe>
     -->
-
+    
     <div id="mapid">
         <!-- Here stay a map design. -->
     </div>
@@ -49,6 +49,10 @@ export default {
     width: 100%;
     height: 100%;
 }
-#mapid { height: 180px; width: 30%; margin: 5px;}
+#mapid { 
+    height: 180px; 
+    width: 30%; 
+    margin: 5px;
+}
 
 </style>
