@@ -19,7 +19,8 @@ consign()
     .then('./schedule')
     .then('./config/routes.js')
     .then('./config/qlikSense.js')
-    //.then('./config/db2.js')
+    .then('./config/cimatecMqtt.js')
+    .then('./config/energyMqtt.js')
     .into(app)
 
 app.listen(3000, () => {
