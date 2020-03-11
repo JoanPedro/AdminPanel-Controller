@@ -2,7 +2,7 @@
 
 module.exports = {
     
-    
+    /*
     client: 'postgresql',
     connection: {
         database: 'knowledge',
@@ -15,8 +15,8 @@ module.exports = {
     },
     migrations: {
         tableName: 'knex_migrations'
-    }
-    /*
+    }*/
+    
     client: 'postgresql',
     connection: {
         host: 'codaxpostgres.c8rmjbl8lqg6.us-west-2.rds.amazonaws.com',
@@ -31,6 +31,6 @@ module.exports = {
     migrations: {
         tableName: 'knex_migrations'
     }
-    */
+    
 
 };
