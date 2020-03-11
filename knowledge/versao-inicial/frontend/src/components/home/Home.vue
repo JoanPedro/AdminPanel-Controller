@@ -29,7 +29,7 @@ export default {
         return {
             stat:{}
         }
-    },
+    },/*
     methods: {
         getStats(){
             axios.get(`${baseApiUrl}/stats`).then(res => this.stat = res.data)
@@ -37,7 +37,7 @@ export default {
     },  
     mounted(){
         this.getStats()
-    }
+    }*/
 }
 </script>
 
