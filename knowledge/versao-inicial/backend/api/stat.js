@@ -1,4 +1,5 @@
 module.exports = app => {
+    /*
     const Stat = app.mongoose.model('Stat', {
         users: Number,
         categories: Number,
@@ -19,4 +20,5 @@ module.exports = app => {
     }
 
     return { Stat, get }
+    */
 }

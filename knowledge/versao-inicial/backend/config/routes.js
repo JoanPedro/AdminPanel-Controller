@@ -25,11 +25,11 @@ module.exports = app => {
     app.route('/codax')
         .all(app.config.passport.authenticate())
         .post(adminMaster(app.api.codax.save))
-
+    /*
     app.route('/stats')
         .all(app.config.passport.authenticate())
         .get(app.api.stat.get)
-
+    */
     app.route('/businesses')
         .all(app.config.passport.authenticate())
         .post(adminMaster(app.api.business.save))
