@@ -19,10 +19,10 @@ module.exports = {
     
     client: 'postgresql',
     connection: {
-        host: 'codaxpostgres.c8rmjbl8lqg6.us-west-2.rds.amazonaws.com',
-        database: 'postgres',
-        user: 'codax',
-        password: 'codax2020'
+        host: '...',
+        database: '...',
+        user: '...',
+        password: '...'
     },
     pool: {
         min: 2,
