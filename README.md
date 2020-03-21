@@ -1,7 +1,7 @@
-# Desenvolvimento do Ledax.io
+# Desenvolvimento de uma Plataforma de Monitoramento
 
 # - Objetivo:
-O Atual projeto visa o desenvolvimento da plataforma de **telegestão**  da LEDAX.
+O Atual projeto visa o desenvolvimento da plataforma de uma plataforma de **telegestão**.
 
 # - Estruturação de Projeto:
 O sistema está dividido em duas frentes de aplicação, **Backend** e **frontend**.
