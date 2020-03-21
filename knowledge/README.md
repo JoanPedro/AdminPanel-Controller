@@ -1,6 +1,6 @@
-# Knowledge
+# Projeto Base de Conhecimento
 
-Projeto Conceitual Inicial do Ledaxio!
+Projeto Conceitual Inicial.
 
 # Versão Inicial
 
