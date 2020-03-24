@@ -3,7 +3,7 @@ const mqtt = require('mqtt')
 const mysql = require('mysql');
 
 var con = mysql.createConnection({
-    host: "codax.c8rmjbl8lqg6.us-west-2.rds.amazonaws.com",
+    host: "...",
     user: "codax",
     password: "codax2020",
     database: "mydb"
@@ -16,9 +16,9 @@ con.connect(function(err) {
 
 var credentials = {
     port: 10538,
-    host: 'mqtt:/m10.cloudmqtt.com',
+    host: '...',
     clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
-    username: 'flibfowb',
+    username: '...',
     password: 'OEF9zrNlJHns',
     keepalive: 60,
     reconnectPeriod: 1000,
