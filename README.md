@@ -34,6 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/)
 - [Vue](https://vuejs.org/)
 - [Vue Native](https://vue-native.io/)
+- [postgreSQL](https://www.postgresql.org/)
+- [MongoDB](https://www.mongodb.com/)
 
 ## 💻 Projeto
 
