@@ -21,7 +21,7 @@
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Projeto visa implementar um Dashboard com 3 camadas de verificação: Requisição, Validação e Autenticação.
 
-## Funcionalidades
+## :wrench: Funcionalidades
 
 - CRUD Administrativos;
 - Gerenciamento de Acesso por Tipo de Usuário;
