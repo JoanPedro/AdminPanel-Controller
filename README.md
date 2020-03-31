@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Projeto visa implementar um Dashboard com 3 camadas de verificação: Requisição, Validação e Autenticação.
 
-## :func: Funcionalidades
+## Funcionalidades
 
 - CRUD Administrativos;
 - Gerenciamento de Acesso por Tipo de Usuário;
