@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Painel de Gestão Administrativa" title="#BeTheHero" src="" width="250px" />
+    <img alt="Painel de Gestão Administrativa" title="#AdminPG" src="" width="250px" />
 </h1>
 
 <h4 align="center">
